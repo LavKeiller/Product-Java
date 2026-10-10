@@ -53,7 +53,7 @@ public class ClientService {
         c.setTelephone(client.getTelephone());                                
         c.setName(client.getName());
         c.setAge(client.getAge());
-        c.setAdress(client.getAdress());
+        c.setAddress(client.getAddress());
         c.setGender(client.getGender());
 
         repository.save(c);

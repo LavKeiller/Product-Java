@@ -17,7 +17,7 @@ public class Client implements java.io.Serializable{
     private int age;
     private String gender;
     private int telephone;
-    private String adress;
+    private String address;
 
     public Long getId() {
         return id;
@@ -43,11 +43,11 @@ public class Client implements java.io.Serializable{
     public void setTelephone(int telephone) {
         this.telephone = telephone;
     }
-    public String getAdress() {
-        return adress;
+    public String getAddress() {
+        return address;
     }
-    public void setAdress(String adress) {
-        this.adress = adress;
+    public void setAddress(String address) {
+        this.address = address;
     }
     public String getGender() {
         return gender;
